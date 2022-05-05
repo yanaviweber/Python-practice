@@ -1,4 +1,4 @@
-favorite_languages_third= {
+favorite_languages_third = {
     'jen': 'python',
     'sarah': 'c',
     'edward': 'ruby',
