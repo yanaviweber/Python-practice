@@ -1,16 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d4875efd-be7f-466a-8c44-791ecc2a5469" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/dictionary_in_dictionaries.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/favorite_languages.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/many_users.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pizza_dictionaries_lists.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/users_second_all_values.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/users_third_all_values.py" afterDir="false" />
+    <list default="true" id="d4875efd-be7f-466a-8c44-791ecc2a5469" name="Changes" comment="feat: add new files for finish topic about dictionaries with all homeworks.">
+      <change afterPath="$PROJECT_DIR$/DZ_exercises/input_data_dz.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DZ_exercises/while_loops_additional_lists.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DZ_exercises/while_loops_breaking_loop_dz.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DZ_exercises/while_loops_data_in_dictionaries_dz.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cities.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/confirmed_users.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/counting.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/even_or_odd.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/greeter.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mountain_poll.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/parrot.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pets.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rollercoaster.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DZ_exercises/dictionaries_first_dz.py" beforeDir="false" afterPath="$PROJECT_DIR$/DZ_exercises/dictionaries_first_dz.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user.py" beforeDir="false" afterPath="$PROJECT_DIR$/user.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/users_third_all_values.py" beforeDir="false" afterPath="$PROJECT_DIR$/users_third_all_values.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,10 +62,11 @@
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\creat\PycharmProjects\MyPythonProject_MatizBook" />
+      <recent name="C:\Users\creat\PycharmProjects\MyPythonProject_MatizBook\DZ_exercises" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.dictionaries_first_dz (1)">
-    <configuration name="dictionaries_first_dz (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.while_loops_additional_lists">
+    <configuration name="Ex_7_5_DZ" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="MyPythonProject_MatizBook" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -71,7 +78,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/DZ_exercises/dictionaries_first_dz.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/DZ_exercises/Ex_7_5_DZ.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -80,7 +87,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="dictionary_in_dictionaries" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="confirmed_users" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="MyPythonProject_MatizBook" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -88,32 +95,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/DZ_exercises" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/dictionary_in_dictionaries.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="favorite_languages" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="MyPythonProject_MatizBook" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/favorite_languages.py" />
+      <option name="SCRIPT_NAME" value="C:\Users\creat\PycharmProjects\MyPythonProject_MatizBook\confirmed_users.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -143,7 +129,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="pizza_dictionaries_lists" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="mountain_poll" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="MyPythonProject_MatizBook" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -155,7 +141,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/pizza_dictionaries_lists.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/mountain_poll.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -164,7 +150,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="user" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="pets" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="MyPythonProject_MatizBook" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -176,7 +162,28 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/user.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/pets.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="while_loops_additional_lists" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="MyPythonProject_MatizBook" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/DZ_exercises" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/DZ_exercises/while_loops_additional_lists.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -187,11 +194,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.dictionaries_first_dz (1)" />
-        <item itemvalue="Python.favorite_languages" />
-        <item itemvalue="Python.pizza_dictionaries_lists" />
-        <item itemvalue="Python.dictionary_in_dictionaries" />
-        <item itemvalue="Python.user" />
+        <item itemvalue="Python.while_loops_additional_lists" />
+        <item itemvalue="Python.mountain_poll" />
+        <item itemvalue="Python.pets" />
+        <item itemvalue="Python.confirmed_users" />
+        <item itemvalue="Python.Ex_7_5_DZ" />
       </list>
     </recent_temporary>
   </component>
@@ -204,6 +211,14 @@
       <option name="presentableId" value="Default" />
       <updated>1646073674138</updated>
     </task>
+    <task id="LOCAL-00001" summary="feat: add new files for finish topic about dictionaries with all homeworks.">
+      <created>1650040160191</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1650040160191</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -217,7 +232,7 @@
                   <entry key="branch">
                     <value>
                       <list>
-                        <option value="BasicForLearning_ContinueDictionaries" />
+                        <option value="Python-practice/Topic_InputData_and_WhileLoops" />
                       </list>
                     </value>
                   </entry>
@@ -228,6 +243,10 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="feat: add new files for finish topic about dictionaries with all homeworks." />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: add new files for finish topic about dictionaries with all homeworks." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
