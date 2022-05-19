@@ -13,7 +13,7 @@ print(f"Your age is {age} years old.")
 # ------ Functions --------------
 
 def greet_user():
-    """ show only message """
+    """ Show only message """
 
     print("Hello!")
 
@@ -25,5 +25,7 @@ def great_user_2(first_name):
     print(f"Hello, {first_name.title()}.")
 
 great_user_2(first_name)
+
+
 
 

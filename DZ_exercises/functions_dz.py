@@ -111,3 +111,74 @@ while True:
     print(my_album)
 
 # Ex 8.9
+
+def show_message(messages_list):
+    """ Show all messages which are not send """
+
+    for message in messages_list:
+        print(message)
+
+messages_list = ['Hello, World!', 'Python forever', 'You are perfect developer!']
+print(f"This is result of 8.9 task:")
+show_message(messages_list)
+
+
+# Ex. 8.10
+
+def send_messages(messages_list, sent_messages):
+    """ Show all messages which are sent """
+
+    print("The messages of send_messages task:")
+    while messages_list:
+        current_message = messages_list.pop()
+        print(f"Current message: {current_message}")
+        sent_messages.append(current_message)
+
+sent_messages = []
+# send_messages(messages_list, sent_messages)
+
+# Ex 8.11
+# Show all messages on the copy of the source messages_list
+send_messages(messages_list[:], sent_messages)
+print(f"Source of messages_list: {messages_list}")
+
+print(f"This is a result of 8.10 task:")
+print(f"Messages list after func send_messages: {messages_list}.")
+print(f"List of sent messages after func send_messages: {sent_messages}.")
+
+
+# Ex. 8.12
+def get_sandwich_params(*components):
+    """ Show all components in the sandwich """
+    for component in components:
+        print(component)
+
+get_sandwich_params("strawberry")
+get_sandwich_params('salad', 'beef', 'potatoes')
+get_sandwich_params('bakon', 'mozarella')
+
+# Ex. 8.13
+# Copy of the programm User_profile
+
+def build_my_profile(first, last, **user_info):
+    """ Create a dictionary with my user info """
+
+    user_info['first_name'] = first
+    user_info['last_name'] = last
+    return user_info
+
+my_user_profile = build_my_profile('steve', 'jobs', location='californiia', field='information technologies')
+print(my_user_profile)
+
+# Ex. 8.14
+
+def make_car(brand, model_name, **car_info):
+    """ Save info about car """
+
+    car_info['brand'] = brand
+    car_info['model_name'] = model_name
+    return car_info
+car = make_car('subaru', 'outback', color='blue', tow_package=True)
+print(car)
+
+
