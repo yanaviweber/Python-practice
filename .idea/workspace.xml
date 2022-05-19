@@ -2,21 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d4875efd-be7f-466a-8c44-791ecc2a5469" name="Changes" comment="feat: add new files for finish topic about dictionaries with all homeworks.">
-      <change afterPath="$PROJECT_DIR$/DZ_exercises/input_data_dz.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DZ_exercises/while_loops_additional_lists.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DZ_exercises/while_loops_breaking_loop_dz.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DZ_exercises/while_loops_data_in_dictionaries_dz.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cities.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/confirmed_users.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/counting.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/even_or_odd.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/greeter.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mountain_poll.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/parrot.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pets.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rollercoaster.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/making_pizzas.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pizza.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/printing_functions.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user_profile.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/users_third_all_values.py" beforeDir="false" afterPath="$PROJECT_DIR$/users_third_all_values.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DZ_exercises/functions_dz.py" beforeDir="false" afterPath="$PROJECT_DIR$/DZ_exercises/functions_dz.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/greeter.py" beforeDir="false" afterPath="$PROJECT_DIR$/greeter.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/printing_models.py" beforeDir="false" afterPath="$PROJECT_DIR$/printing_models.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,7 +41,9 @@
     <option name="selectedTabId" value="CurrentFile" />
   </component>
   <component name="ProjectId" id="25kajHH4QrERkyaJ5Amx2pKdLaI" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -65,8 +60,8 @@
       <recent name="C:\Users\creat\PycharmProjects\MyPythonProject_MatizBook\DZ_exercises" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.while_loops_additional_lists">
-    <configuration name="Ex_7_5_DZ" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.functions_dz">
+    <configuration name="functions_dz" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="MyPythonProject_MatizBook" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -78,7 +73,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/DZ_exercises/Ex_7_5_DZ.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/DZ_exercises/functions_dz.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -87,7 +82,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="confirmed_users" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="greet_users" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="MyPythonProject_MatizBook" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -95,11 +90,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/DZ_exercises" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="C:\Users\creat\PycharmProjects\MyPythonProject_MatizBook\confirmed_users.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/greet_users.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -129,7 +124,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="mountain_poll" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="pizza" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="MyPythonProject_MatizBook" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -141,7 +136,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/mountain_poll.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/pizza.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -150,7 +145,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="pets" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="printing_models" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="MyPythonProject_MatizBook" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -162,7 +157,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/pets.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/printing_models.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -171,7 +166,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="while_loops_additional_lists" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="user_profile" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="MyPythonProject_MatizBook" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -179,11 +174,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/DZ_exercises" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/DZ_exercises/while_loops_additional_lists.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/user_profile.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -194,11 +189,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.while_loops_additional_lists" />
-        <item itemvalue="Python.mountain_poll" />
-        <item itemvalue="Python.pets" />
-        <item itemvalue="Python.confirmed_users" />
-        <item itemvalue="Python.Ex_7_5_DZ" />
+        <item itemvalue="Python.functions_dz" />
+        <item itemvalue="Python.user_profile" />
+        <item itemvalue="Python.pizza" />
+        <item itemvalue="Python.printing_models" />
+        <item itemvalue="Python.greet_users" />
       </list>
     </recent_temporary>
   </component>
