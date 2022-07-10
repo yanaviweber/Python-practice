@@ -63,3 +63,50 @@ my_laptop.describe_user()
 
 print("END----------- 9.5 ------------")
 
+
+# Ex. 9.8
+
+class Privileges():
+    """ Model of privileges of users """
+    def __init__(self):
+        """ Show list of privileges """
+        self.privileges = ["разрешено добавлять сообщения", "разрешено удалять пользователей", "разрешено банить пользователей"]
+
+    def show_privileges(self):
+        """ Show some privileges in print type """
+        print("This user has these privileges:")
+        for privilege in self.privileges:
+            print(f"-  {privilege}")
+
+
+# Ex. 9.7
+class Admin(User):
+    def __init__(self, first_name, last_name, eyes_color, height, city):
+        """ Initialize attributes of parent for child class Admin"""
+
+        super().__init__(first_name, last_name, eyes_color, height, city)
+#        self.privileges = []
+        """ Privileges ss an object in attribute of class """
+        self.privileges = Privileges()
+
+
+#    def show_privileges(self):
+#        """ Show some privileges in print type """
+#        print("This user has these privileges:")
+#        for privilege in self.privileges:
+#            print(f"-  {privilege}")
+
+
+myAdminUser = Admin("Viktoriia", "Romaniuk", "grey-green", 1.65, "Leipzig")
+myAdminUser.privileges = ["разрешено добавлять сообщения", "разрешено удалять пользователей",
+                          "разрешено банить пользователей"]
+
+myAdminUser.describe_user()
+# myAdminUser.show_privileges()
+print(" START ----------- 9.8 ------------")
+
+myNewAdminUser = Admin("Svitlana", "Romaniuk", "grey-green", 1.67, "Leipzig")
+myNewAdminUser.describe_user()
+myNewAdminUser.privileges.show_privileges()
+
+print(" END ----------- 9.8 ------------")

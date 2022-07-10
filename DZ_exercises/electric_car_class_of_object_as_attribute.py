@@ -9,6 +9,7 @@ class Car():
         self.odometer_reading = 0
         self.fill_gas_tank_value = 100
 
+
     def get_descriptive_name(self):
         """ Return clean formatting description of model name and other important info """
         long_name = f"{self.year} {self.make} {self.model}"
@@ -36,6 +37,34 @@ class Car():
         """ Describe all information about gas tank in car """
         print(f"The minimum reguirement for driving car is {self.fill_gas_tank_value} litr.")
 
+
+class Battery():
+    """ Simple model of car battery """
+    def __init__(self, battery_size=75):
+        """ Initializing battery attributes """
+        self.battery_size = battery_size
+
+    def describe_battery(self):
+        """ Show info about power of battery """
+        print(f"This is a {self.battery_size}-kWh battery.")
+
+    def get_range(self):
+        """ Displays the approximate range for the battery """
+        if self.battery_size == 75:
+            range = 260
+        elif self.battery_size == 100:
+            range = 315
+        print(f"This car can go about {range} miles on a full charge.")
+
+# Ex. 9.9
+    def upgrade_battery(self):
+        """ Check size of battery and set value in 100 """
+        if self.battery_size == 75:
+            self.battery_size = 100
+            print("Battery is upgraded to 100 kWH.")
+        else:
+            print(f"Battery size is already upgraded.")
+
 class ElectricCar(Car):
     """ Describe the technic characteristics which has an electric car only """
 
@@ -44,11 +73,8 @@ class ElectricCar(Car):
          After it is initializing attributes for only electric cars.
          """
         super().__init__(make, model, year)
-        self.battery_size = 75
-
-    def describe_battery(self):
-        """ Show information about power of battery """
-        print(f"This car a {self.battery_size}-kWh battery.")
+        # self.battery_size = 75
+        self.battery = Battery()  # class in attribute inside
 
     def fill_gas_tank(self):
         """ Electric cars dont have a gas tank """
@@ -56,10 +82,21 @@ class ElectricCar(Car):
 
 my_tesla = ElectricCar('tesla', 'model s', 2019)
 print(my_tesla.get_descriptive_name())
-my_tesla.describe_battery()
+my_tesla.battery.describe_battery()
 my_tesla.fill_gas_tank()
+
+my_tesla.battery.get_range()
+
 print("---------")
 my_other_car = Car('Toyota', 'Camry', 2017)
 my_other_car.fill_gas_tank()
 print("---------")
 
+# Ex. 9.9
+print("---- START 9.9 -----")
+my_audi_car = ElectricCar('audi', 'a6', 2017)
+my_audi_car.battery.get_range()
+my_audi_car.battery.upgrade_battery()
+my_audi_car.battery.get_range()
+
+print("---- END 9.9 -----")
