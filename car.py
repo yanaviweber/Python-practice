@@ -1,3 +1,4 @@
+# Class Car -------------------------------
 class Car():
     """ The model of car """
 
@@ -32,9 +33,43 @@ class Car():
         """ Increase the values of odemeter c set of increasing value """
         self.odometer_reading += miles
 
+# Class Battery -------------------------------
+
+class Battery():
+    """ Simple model of car battery """
+    def __init__(self, battery_size=75):
+        """ Initializing battery attributes """
+        self.battery_size = battery_size
+
+    def describe_battery(self):
+        """ Show info about power of battery """
+        print(f"This is a {self.battery_size}-kWh battery.")
+
+    def get_range(self):
+        """ Displays the approximate range for the battery """
+        if self.battery_size == 75:
+            range = 260
+        elif self.battery_size == 100:
+            range = 315
+        print(f"This car can go about {range} miles on a full charge.")
+
+
+# Class Electric Car -------------------------------
+
+class ElectricCar(Car):
+    """ Describe the technic characteristics which has an electric car only """
+
+    def __init__(self, make, model, year):
+        """ Initialize attributes of parent class.
+         After it is initializing attributes for only electric cars.
+         """
+        super().__init__(make, model, year)
+        self.battery = Battery()
+
 
 my_new_car = Car('audi', 'a4', 2019)
 print(my_new_car.get_descriptive_name())
+
 
 # change parameter with change this in class
 # my_new_car.odometer_reading = 23
