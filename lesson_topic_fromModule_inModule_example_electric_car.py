@@ -1,5 +1,4 @@
 """ Set of classes for presenting electro cars """
-
 # from fromModule_inModule_example-car import Car
 
 class Battery():
