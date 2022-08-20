@@ -1,5 +1,5 @@
 """ Set of classes for presenting electro cars """
-# from fromModule_inModule_example-car import Car
+from lesson_topic_fromModule_inModule_example_car import Car
 
 class Battery():
     """ Simple model of car battery """
